@@ -1,3 +1,5 @@
+console.log("email-password.ts - 001")
+
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js'; //'firebase/app';
 import {
   connectAuthEmulator,
