@@ -1,4 +1,4 @@
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js'; //'firebase/app';
 import {
   connectAuthEmulator,
   createUserWithEmailAndPassword,
@@ -8,7 +8,7 @@ import {
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
   signOut,
-} from 'firebase/auth';
+} from 'https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js'; //'firebase/auth';
 import { firebaseConfig } from './config';
 
 initializeApp(firebaseConfig);
